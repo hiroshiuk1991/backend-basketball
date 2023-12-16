@@ -4,12 +4,10 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-<
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "test": "jest"
-
   },
   "keywords": [],
   "author": "",
@@ -26,7 +24,7 @@
   "devDependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.0.2",
-    "ts-node": "^10.9.2"
-    "@types/pg": "^8.10.9",
+    "ts-node": "^10.9.2",
+    "@types/pg": "^8.10.9"
   }
 }
